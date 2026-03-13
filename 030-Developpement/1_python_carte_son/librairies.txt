@@ -1,0 +1,20 @@
+sounddevice Library
+unreal au lieu d'unity
+
+rapport de projet mettre des choses en annexe.
+
+enceintes: faire la demo en live.
+
+utiliser: 
+protocole d'audio par ip
+ou enceintes filaires avec interface audio -> RME
+	enceintes: partir sur des genelec 44 20 a interface audio multicanal. -> haut de gamme, chaque enceinte coute 560fr.
+			brancher enceintes par IP.
+
+demo presentation:
+but de faire bouger le son: latence forte. brancher en filaire, puis cela ne changeait rien.
+
+
+a la fin quand meme trouver un truc.
+
+unreal : demander le pc
