@@ -1,0 +1,5 @@
+Projet de P3 en préparation du bachelor.
+Utilisation d'enceintes Sonos Era 300 pour créer un contexte de spatialisation du son.
+
+Abstract:
+Dans le contexte de ce projet, on souhaite reproduire une configuration audio spatiale à l’aide de haut-parleurs. Le but est de traquer le mouvement de tête d’un utilisateur et d’adapter le mouvement du son de manière réactive autour de ce dernier. Nous disposons de quatre haut-parleurs Sonos Era 300 et souhaitons établir une preuve de faisabilité en testant leur latence sans et avec fil, et leur possibilité de contrôle individuel. Après les tests, il a été constaté que ces enceintes ne respectaient pas ces deux critères. Nous sommes donc passé à une nouvelle solution, celle d’utiliser une interface audio et des haut-parleurs de PC. Cette solution ne comporte pas de latence (<=10ms). Après de nouveaux tests, il a été confirmé que la solution la plus adaptée est d’utiliser l’API de FMOD avec le langage C++. Cette solution permet de choisir les sorties spécifiques sur lesquelles envoyer une source audio.
